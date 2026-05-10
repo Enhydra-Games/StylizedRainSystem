@@ -20,7 +20,7 @@ Make sure the inner boxes of neighboring Rain Zones touch each other, or gaps in
 See the in engine tooltips for more detailed info.
 
 ### Tipps
-- You can add a custom collision layer for the outher boxes in the rain zones, but make sure they are set to overlap with only the new layer you created.
+- You can add a custom collision layer for the outher boxes in the Rain Zones, but make sure they are set to overlap with only the new layer you created.
 
 
 ## BP_RainManager
@@ -34,7 +34,7 @@ RainTime, RainProbability, RainAmount, RainIntensity and RainVFX configure the v
 See the in engine tooltips for more detailed info.
 
 ### Tipps
-- The rain probability is checked every time the player enters a rain zone.
+- The rain probability is checked every time the player enters a Rain Zone.
 - You can check the RainZones array to see, if all Rain Zones are registered correctly.
 
 ## Usage Notes
@@ -42,5 +42,5 @@ See the in engine tooltips for more detailed info.
 - Make sure the scene includes a Rain Manager.
 - Add as many Rain Zones as needed, the inner, thicker boxes should be right next to each other, the outher boxes should overlap.
 - Adjust the Rain Zone size by adjusting the RainSizeX and RainSizeY variables.
-- Bigger rain zones have smoother transitions, but cost more performance since more particles are on screen at once.
+- Bigger Rain Zones have smoother transitions, but cost more performance since more particles are on screen at once.
 - The rain system is only intended to be used with a single player.
