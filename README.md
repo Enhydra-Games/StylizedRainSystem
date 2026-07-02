@@ -29,13 +29,14 @@ See the in engine tooltips for more detailed info.
 
 RainTime, RainProbability, RainAmount, RainIntensity and RainVFX configure the values and visuals for all Rain Zones.
 
-<img width="273" height="221" alt="grafik" src="https://github.com/user-attachments/assets/abaea2ff-cc70-4163-ad3f-b40078aaad9e" />
+<img width="273" height="221" alt="grafik" src="https://github.com/user-attachments/assets/f688025c-924e-40ee-9cbd-44e6e21cf4ab" />
 
 See the in engine tooltips for more detailed info.
 
 ### Tipps
 - The rain probability is checked every time the player enters a Rain Zone.
 - You can check the RainZones array to see, if all Rain Zones are registered correctly.
+- If InfiniteRain is true, it ignores RainTime and the rain never ends. Use this, if you want constant but efficient rain.
 
 ## Usage Notes
 
